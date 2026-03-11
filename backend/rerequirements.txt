@@ -1,0 +1,10 @@
+SQLAlchemy
+psycopg2-binary
+fastapi
+PyYAML
+openai>=1.0.0
+llama-index
+llama-index-embeddings-huggingface
+uvicorn[standard]
+gunicorn
+pandas

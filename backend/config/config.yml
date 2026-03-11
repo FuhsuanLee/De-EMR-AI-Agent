@@ -1,0 +1,13 @@
+openai:
+  api_key: <YOUR_OPENAI_API_KEY>
+  model: gpt-4o-mini
+  timeout_seconds: 30
+  temperature: 0.7
+
+database:
+  storage_path: "storage_db"
+  db_name: "agent.sqlite"
+
+rag:
+  storage_dir: "storage_rag"
+  embed_model_name: "BAAI/bge-base-zh-v1.5"
